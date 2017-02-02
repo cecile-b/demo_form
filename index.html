@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Exercise</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="logo-wrap">
+  <img class = "logo" src="img/logo.png">
+</div>
+
+<div class="card-wrap">
+  <div class="card-data">
+    <form class='demo-form' action="/signup" method='post'>
+ 
+    <div class = "h1-wrap">
+      <h1>Sign Up</h1>
+    </div>
+    <div class = "card-item email-wrap">
+      <label for="email"required>Email</label>
+      <input type="email" name='email' id='email' placeholder="cecile@cecile.com"/>
+    </div>
+    <div class="card-item pass-wrap">
+      <label for="password" required>Password</label>
+      <input type='text' name='password' id='password' placeholder="ilovecss" title="password" required/>
+    </div>
+    <div class="card-item btn-wrap">
+      <button type='submit'>Sign Up</button>
+    </div>
+    <div class="card-item link-wrap">
+      <a class="password" href="/forgot-password/new">Forgot Password?</a>
+    </div>
+  </form>
+  </div>
+</div><!--end card-wrap -->
+
+<div class="login-wrap">
+  Already have an account? <a class="login"href="/login">Log in</a>
+</div>
+  
+</body>
+
+
+</html>
